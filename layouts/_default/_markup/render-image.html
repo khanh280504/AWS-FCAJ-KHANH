@@ -1,0 +1,14 @@
+{{- $id := "" }}
+{{- $url := .Destination }}
+{{- $parsed := urls.Parse $url }}
+{{- if and (not $parsed.IsAbs) (hasPrefix $url "images/") }}
+  {{- $url = $url | relURL }}
+{{- end }}
+{{- partial "shortcodes/image.html" (dict
+  "page" .Page
+  "url" $url
+  "title" .Title
+  "alt" .Text
+  "id" $id
+  "attributes" .Attributes
+) }}

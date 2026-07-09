@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = "https://ky141204.github.io/LMS-Management-System/"
 theme = 'relearn'
 title = 'My New Hugo Project'
 locale = 'en-us'

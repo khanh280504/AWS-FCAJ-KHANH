@@ -1,0 +1,70 @@
+baseURL = 'http://localhost:1313/'
+theme = 'relearn'
+title = 'My New Hugo Project'
+locale = 'en-us'
+
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# ----------------------------------------------------
+# Cấu hình Params chung (Đã chuẩn hóa theo Relearn v6)
+# ----------------------------------------------------
+[params]  
+  boxStyle = []
+  # Thay thế params.author cũ bằng cấu trúc params.author.name mới để hết lỗi WARN
+  [params.author]
+    name = "Tên của bạn"
+
+# ----------------------------------------------------
+# Cấu hình đa ngôn ngữ 
+# ----------------------------------------------------
+[languages]
+
+  # --- CẤU HÌNH TIẾNG ANH ---
+  [languages.en]
+    title = "Internship Report"
+    weight = 1
+    label = "English"
+    [languages.en.params]
+      themeVariant = "mine" # Nhận file màu theme-mine.css tại assets/css/
+
+  [[languages.en.menu.shortcuts]]
+    name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
+    identifier = "AWS Study Group"
+    url = "https://awsstudygroup.com"
+    weight = 20
+
+  [[languages.en.menu.shortcuts]]
+    name = "<i class='fab fa-facebook'></i> AWS Study Group - FB Group"
+    identifier = "AWS Study Group FB"
+    url = "https://www.facebook.com/groups/awsstudygroupfcj"
+    weight = 20
+
+
+  # --- CẤU HÌNH TIẾNG VIỆT ---
+  [languages.vi]
+    title = "Báo cáo thực tập"
+    weight = 2
+    label = "Tiếng Việt"
+    [languages.vi.params]
+      themeVariant = "mine" # Nhận file màu theme-mine.css tại assets/css/
+
+  [[languages.vi.menu.shortcuts]]
+    name = "<i class='fab fa-aws'></i> AWS Study Group - Blog"
+    identifier = "AWS Study Group"
+    url = "http://awsstudygroup.com"
+    weight = 20
+
+  [[languages.vi.menu.shortcuts]]
+    name = "<i class='fab fa-facebook'></i> AWS Study Group - Nhóm FB"
+    identifier = "AWS Study Group FB"
+    url = "https://www.facebook.com/groups/awsstudygroupfcj"
+    weight = 20

@@ -1,0 +1,19 @@
+{{- $path := .Get "path" -}}
+{{- $url := .Get "url" -}}
+{{- $caption := .Get "caption" | default "Workshop evidence" -}}
+{{- $from := int (.Get "from" | default 0) -}}
+{{- $to := int (.Get "to" | default 999999) -}}
+
+<div class="workshop-gallery">
+{{- range sort (readDir $path) "Name" "asc" }}
+  {{- if not .IsDir }}
+  {{- $number := int (replaceRE `^0*([1-9][0-9]*)$` "$1" (replaceRE `^.*?([0-9]+)\.[^.]+$` "$1" .Name)) -}}
+  {{- if and (ge $number $from) (le $number $to) }}
+  <figure>
+    <img src="{{ printf "%s/%s" $url .Name | relURL }}" alt="{{ $caption }} - {{ .Name }}" loading="lazy">
+    <figcaption>{{ $caption }} - {{ .Name }}</figcaption>
+  </figure>
+  {{- end }}
+  {{- end }}
+{{- end }}
+</div>

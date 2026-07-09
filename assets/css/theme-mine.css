@@ -1,0 +1,125 @@
+/* Theme overrides */
+
+/* “Xịt cái logo” animation (triggered on page load) */
+@keyframes logo-drop {
+  0% {
+    transform: translateY(-28px) scale(0.98);
+    opacity: 0;
+    filter: drop-shadow(0 0 0 rgba(0,0,0,0));
+  }
+  35% {
+    opacity: 1;
+  }
+  70% {
+    transform: translateY(4px) scale(1.02);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+#R-logo .logo-image,
+#logo.logo-drop {
+  /* keep animation isolated to our element */
+  animation: logo-drop 900ms cubic-bezier(.2,.9,.2,1) both;
+}
+
+#logo.logo-drop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Custom variables to style the sidebar according to requirements */
+:root,
+:root:not([data-r-output-format=print])[data-r-theme-variant$=mine],
+body {
+  /* Sidebar Body Background */
+  --MENU-SECTIONS-BG-color: rgba(28, 37, 46, 1);       /* #1c252e - Very dark slate blue/charcoal */
+  
+  /* Sidebar Header Background (logo + search area) */
+  --MENU-HEADER-BG-color: rgba(35, 58, 87, 1);         /* #233a57 - Slate blue */
+  --MENU-HEADER-BORDER-color: rgba(43, 70, 102, 1);    /* #2b4666 - Separation line border */
+
+  /* Search Box */
+  --MENU-SEARCH-BG-color: rgba(21, 34, 50, 1);         /* #152232 - Very dark blue inside slate blue header */
+  --MENU-SEARCH-BORDER-color: rgba(43, 70, 102, 1);    /* #2b4666 - Slate blue border for search input */
+  --MENU-SEARCH-color: rgba(160, 174, 192, 1);        /* Muted slate blue text / icons */
+
+  /* General Text & Links in Sidebar */
+  --MENU-SECTIONS-LINK-color: rgba(255, 255, 255, 1);   /* Bright white/cream for item text */
+  --MENU-SECTIONS-LINK-HOVER-color: rgba(255, 255, 255, 1);
+  --MENU-SECTION-ACTIVE-CATEGORY-color: rgba(255, 255, 255, 1); /* White for active page text */
+  --MENU-SECTIONS-ACTIVE-BG-color: rgba(43, 58, 77, 0.4);      /* Subtle overlay for active menu item */
+
+  /* Separators */
+  --MENU-SECTION-SEPARATOR-color: rgba(43, 58, 77, 0.6);       /* Thin slate separator lines */
+}
+
+/* Header border separation */
+#R-header-wrapper {
+  border-bottom: 2px solid rgba(43, 70, 102, 0.6) !important;
+}
+
+/* Color section numbers (e.g. 1., 2., 3. ...) inside sidebar menu links */
+#R-sidebar .R-sidebarmenu a b {
+  color: rgba(86, 108, 136, 1) !important; /* #566c88 - slate blue numbers */
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
+
+/* Style the "MORE" header thin and uppercase */
+#R-sidebar .R-sidebarmenu .nav-title {
+  color: rgba(86, 108, 136, 1) !important;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Style the menu footer labels and colors */
+#R-footer left b {
+  color: rgba(86, 108, 136, 1) !important;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+#R-footer left i {
+  font-style: italic;
+}
+
+#R-footer left i font[color="orange"],
+#R-footer left i a {
+  color: #ff9900 !important; /* Premium AWS orange/gold */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Adjust language switcher and footer controls */
+#R-sidebar .R-shortcutmenu-footercontrols a,
+#R-sidebar .R-languageswitcher,
+#R-sidebar .R-languageswitcher * {
+  color: rgba(226, 232, 240, 1) !important;
+}
+
+#R-sidebar .R-shortcutmenu-footercontrols i,
+#R-sidebar .R-languageswitcher i {
+  color: rgba(86, 108, 136, 1) !important;
+}
+
+#R-select-language {
+  background-color: transparent !important;
+  color: rgba(226, 232, 240, 1) !important;
+  border: none !important;
+}
+
+#R-select-language option {
+  background-color: rgba(28, 37, 46, 1) !important;
+  color: rgba(226, 232, 240, 1) !important;
+}

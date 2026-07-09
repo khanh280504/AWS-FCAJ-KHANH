@@ -1,0 +1,5 @@
+.hugo_build.lock
+.hugo_cache/
+hugo-server.*.log
+public/
+resources/_gen/

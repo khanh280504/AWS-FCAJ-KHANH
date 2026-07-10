@@ -1,10 +1,13 @@
 baseURL = "https://khanh280504.github.io/AWS-FCAJ-KHANH/"
 relativeURLs = true
 canonifyURLs = true
-theme = 'relearn'
-title = 'My New Hugo Project'
-locale = 'en-us'
 
+theme = "relearn"
+title = "My New Hugo Project"
+locale = "en-us"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 
 [outputs]
   home = ["HTML", "RSS"]

@@ -1,6 +1,4 @@
 baseURL = "https://khanh280504.github.io/AWS-FCAJ-KHANH/"
-relativeURLs = true
-canonifyURLs = true
 
 theme = "relearn"
 title = "My New Hugo Project"

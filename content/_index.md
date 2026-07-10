@@ -7,11 +7,11 @@ type: home
 ---
 
 ### Student Information:
-&emsp; **Full Name:** Chu Le Vinh Ky
+&emsp; **Full Name:** Y Khanh Ayun
 
-&emsp; **Phone:** 0898937952
+&emsp; **Phone:** 0343428504
 
-&emsp; **Email:** ky14122004@gmail.com
+&emsp; **Email:** khanh55190@gmail.com
 
 &emsp; **University:** Ho Chi Minh City University of Technology - HUTECH
 
@@ -25,7 +25,7 @@ type: home
 
 &emsp; **Internship Period:** From 16/04/2025 to 16/07/2026
 
-![Profile Photo](images/z7677182220412_9cbe05321a79352b0fcc6355474fbc51.jpg)
+![Profile Photo](images/2.jpg)
 
 ### Report Contents
 

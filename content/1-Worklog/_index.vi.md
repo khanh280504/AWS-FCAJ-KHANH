@@ -1,5 +1,5 @@
 ---
-title: "Nhật Ký Công Việc"
+title: "Nhật ký hành trình thực tập"
 date: 2026-04-20
 weight: 1
 chapter: false
@@ -7,10 +7,10 @@ pre: " <b> 1. </b> "
 ---
 ---
 
-Trong trang này, bạn sẽ theo dõi hành trình học tập và làm việc qua từng tuần của chương trình thực tập Bootcamp AWS Cloud Journey.
+Trang này tổng hợp hành trình học tập và thực hành của tôi theo từng tuần trong chương trình thực tập Bootcamp AWS Cloud Journey.
 
-### 📅 Lộ trình thực tập của tôi:
-Chương trình được thiết kế chi tiết kéo dài **12 tuần** (3 tháng) với lộ trình tích lũy kiến thức từ cơ bản đến nâng cao về hạ tầng đám mây AWS và phát triển phần mềm:
+### 📅 Lộ trình thực tập
+Chương trình kéo dài **12 tuần** (3 tháng), giúp tôi tích lũy kiến thức theo lộ trình từ nền tảng đến nâng cao về hạ tầng đám mây AWS và phát triển phần mềm:
 
 *   **Tuần 1:** [Lập cấu hình công cụ & Tài khoản AWS cá nhân](1.1-week1/)
 *   **Tuần 2:** [Tìm hiểu hạ tầng toàn cầu AWS & Thiết lập ngân sách](1.2-week2/)
@@ -27,7 +27,7 @@ Chương trình được thiết kế chi tiết kéo dài **12 tuần** (3 thá
 
 ---
 > [!TIP]
-> ### 🏆 Mục tiêu của việc ghi nhận Worklog
-> *   **Ghi nhận tiến độ**: Lưu trữ toàn bộ các đầu mục công việc và kết quả đạt được (Deliverables) theo từng ngày.
-> *   **Đánh giá cá nhân**: Đúc kết các bài học kỹ thuật, các lỗi gặp phải và giải pháp xử lý trong quá trình học tập thực tế.
-> *   **Chứng minh năng lực**: Thể hiện trực quan kỹ năng vẽ sơ đồ draw.io, viết tài liệu kỹ thuật và triển khai hạ tầng AWS thành công.
+> ### 🏆 Mục đích ghi nhận Worklog
+> *   **Theo dõi tiến độ**: Ghi lại các công việc đã thực hiện và kết quả đạt được (Deliverables) qua từng ngày.
+> *   **Tự đánh giá**: Tổng hợp bài học kỹ thuật, những lỗi gặp phải và cách xử lý trong quá trình thực hành.
+> *   **Thể hiện năng lực**: Minh họa kỹ năng sử dụng draw.io, viết tài liệu kỹ thuật và triển khai hạ tầng AWS.

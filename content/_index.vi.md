@@ -8,11 +8,11 @@ type: home
 
 
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Chu Lê Vĩnh Kỳ
+&emsp; **Họ và tên:** Y Khanh Ayun
 
-&emsp; **Số điện thoại:** 0898937952
+&emsp; **Số điện thoại:** 0343428504
 
-&emsp; **Email:** ky14122004@gmail.com
+&emsp; **Email:** khanh55190@gmail.com
 
 &emsp; **Trường:** Trường Đại học Công nghệ Thành phố Hồ Chí Minh - HUTECH
 
@@ -26,7 +26,7 @@ type: home
 
 &emsp; **Thời gian thực tập:** Từ ngày 16/04/2025 đến ngày 16/07/2026
 
-![Ảnh đại diện của bạn](images/z7677182220412_9cbe05321a79352b0fcc6355474fbc51.jpg)
+![Ảnh đại diện của bạn](images/2.jpg)
 
 
 

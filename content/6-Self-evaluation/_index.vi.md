@@ -6,16 +6,16 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-# TỰ ĐÁNH GIÁ KẾT QUẢ THỰC TẬP
+# TỰ ĐÁNH GIÁ QUÁ TRÌNH THỰC TẬP
 ---
 
-Trong suốt thời gian thực tập tại **Công ty TNHH Amazon Web Services Viet Nam** từ ngày **16/04/2026** đến ngày **16/07/2026**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng các kiến thức đã được trang bị tại nhà trường vào môi trường làm việc thực tế. 
+Trong thời gian thực tập tại **Công ty TNHH Amazon Web Services Viet Nam**, từ ngày **16/04/2026** đến ngày **16/07/2026**, tôi có cơ hội học hỏi, rèn luyện và vận dụng những kiến thức đã tích lũy ở trường vào môi trường làm việc thực tế.
 
-Tôi đã tham gia **nghiên cứu lộ trình kiến thức đám mây AWS Cloud Journey, thực hành xây dựng các bài Labs, thiết lập hạ tầng mạng/lưu trữ/cơ sở dữ liệu đám mây và chia sẻ các bài viết chuyên sâu về kỹ thuật**, qua đó cải thiện rõ rệt các kỹ năng lập trình thực chiến, phân tích bài toán kiến trúc, viết tài liệu kỹ thuật và quản lý thời gian.
+Tôi đã **tìm hiểu lộ trình AWS Cloud Journey, thực hành các bài lab, thiết lập hạ tầng mạng, lưu trữ và cơ sở dữ liệu trên nền tảng đám mây, đồng thời chia sẻ các bài viết kỹ thuật**. Qua đó, tôi cải thiện đáng kể kỹ năng thực hành, phân tích kiến trúc, viết tài liệu kỹ thuật và quản lý thời gian.
 
-Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nghiêm túc nội quy của tổ chức và tích cực trao đổi với các anh chị hướng dẫn cùng cộng đồng học viên để nâng cao hiệu quả công việc.
+Về tác phong làm việc, tôi luôn nỗ lực hoàn thành nhiệm vụ đúng yêu cầu, nghiêm túc tuân thủ nội quy và chủ động trao đổi với các anh/chị hướng dẫn cũng như cộng đồng học viên để nâng cao hiệu quả công việc.
 
-Để phản ánh một cách khách quan quá trình thực tập, tôi xin tự đánh giá bản thân dựa trên các tiêu chí dưới đây:
+Để nhìn nhận khách quan quá trình thực tập, tôi tự đánh giá bản thân theo các tiêu chí dưới đây:
 
 ### 📊 Bảng tự đánh giá chi tiết:
 
@@ -38,6 +38,6 @@ Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân t
 
 > [!TIP]
 > ### 🎯 Điểm cần cải thiện & Kế hoạch phát triển
-> *   **Nâng cao tính kỷ luật bản thân**: Tiếp tục duy trì và chấp hành nghiêm chỉnh mọi nội quy, quy định làm việc của tổ chức trong các giai đoạn tiếp theo.
-> *   **Nâng cao tư duy giải quyết vấn đề**: Tích cực tham gia các bài toán kiến trúc thực tế khó hơn, rèn luyện cách debug hệ thống phức tạp một cách độc lập và nhanh chóng hơn.
-> *   **Trau dồi kỹ năng giao tiếp thuyết trình**: Chủ động tương tác nhiều hơn trong các buổi thảo luận chung, học cách diễn đạt các vấn đề kỹ thuật phức tạp một cách trực quan, súc tích và dễ hiểu nhất cho các bên liên quan.
+> *   **Duy trì tính kỷ luật**: Tiếp tục tuân thủ nghiêm túc nội quy và quy trình làm việc của tổ chức trong các giai đoạn tiếp theo.
+> *   **Phát triển tư duy giải quyết vấn đề**: Tham gia nhiều hơn vào các bài toán kiến trúc thực tế, đồng thời rèn luyện kỹ năng gỡ lỗi hệ thống phức tạp một cách độc lập và hiệu quả.
+> *   **Cải thiện giao tiếp, thuyết trình**: Chủ động trao đổi trong các buổi thảo luận và rèn luyện cách trình bày vấn đề kỹ thuật sao cho trực quan, ngắn gọn, dễ hiểu.

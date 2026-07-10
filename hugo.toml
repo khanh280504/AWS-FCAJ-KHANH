@@ -1,4 +1,6 @@
 baseURL = "https://ky141204.github.io/LMS-Management-System/"
+relativeURLs = true
+canonifyURLs = true
 theme = 'relearn'
 title = 'My New Hugo Project'
 locale = 'en-us'
